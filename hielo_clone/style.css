@@ -1,0 +1,244 @@
+/*
+General rules
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: #fff;
+}
+
+hr {
+  border-top: 0px solid;
+  margin: 15px auto 0;
+  width: 35%;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.letter-spacing {
+  letter-spacing: 0.25rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.nav-bar {
+  list-style: none;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.nav-bar > .logo > span {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.toggle-buttom {
+  background: unset;
+  color: unset;
+  border: unset;
+  padding: unset;
+  font-size: inherit;
+}
+
+.toggle-buttom:hover {
+  cursor: pointer;
+}
+
+.main-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/banner-bg.jpg);
+  background-position: center 0px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-message > hr {
+  border-top: 1px solid rgba(255, 255, 255, 0.65);
+  margin: 30px auto 0;
+  width: 50%;
+}
+
+.main-banner .sub-title {
+  font-size: 1.2em;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.main-banner .title {
+  font-size: 8em;
+  font-weight: 400;
+  color: #fff;
+}
+
+.wrapper {
+  min-height: 100vh;
+  background-color: #f2f2f2;
+  color: #a6a6a6;
+}
+
+.section-article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+
+}
+
+.article {
+  max-width: 35%;
+  min-height: 80vh;
+  background-color: #fff;
+  margin: auto 35px;
+  font-weight: 300;
+}
+
+.article-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.article-content {
+  padding: 55px;
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  font-size: 20px;
+}
+
+.article-content header h1 {
+  font-size: 34px;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.article-content header p {
+  font-size: 14px;
+}
+
+.article-content footer {
+  margin: 50px 0;
+}
+
+.button-learn {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  border: 3px solid #d9d9d9;
+  padding: 15px 25px;
+  font-weight: 300;
+}
+
+.button-learn:hover {
+  background-color: #ececec;
+}
+
+@media screen and (max-width: 992px) {
+  .article {
+    max-width: 80%;
+    margin: auto 0;
+  }
+}
+
+.second-banner {
+  color: #bfbfbf;
+  background-image: url(./images/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.second-banner h1 {
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.gallery {
+  text-align: center;
+}
+.gallery header{
+  padding: 150px 0 50px;
+}
+
+.gallery header p{
+  font-size: 0.8rem;
+}
+.gallery header hr {
+  border-top: 1px solid;
+}
+
+.gallery header h1{
+  color: #000;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.gallery > .container {
+  max-width: 100%;
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery .container .image-container {
+  background-color: #fff;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.footer {
+  padding: 4rem 0 2rem 0;
+  background: #000;
+  text-align: center;
+}
+
+.icons {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons img{
+  margin:  0 10px;
+  width: 25px;
+  filter: invert(1);
+}
+
+.copyright {
+  color: #bbb;
+  font-size: 0.9rem;
+  margin: 2rem 0;
+  padding: 0;
+}
