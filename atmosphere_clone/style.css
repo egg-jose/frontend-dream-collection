@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  color: #637485;
+  font-family: "Quicksand", Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.625;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  align-items: center;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+
+/*
+Navbar
+*/
+.navbar {
+  align-items: center;
+  background-color: transparent;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+  position: fixed;
+  width: 100%;
+}
+
+.scroll {
+  background-color: #637485;
+}
+
+.navbar > .logo a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.menu {
+  color: inherit;
+  padding: 5px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+}
+/*
+Banner
+*/
+
+#banner {
+  background-image: linear-gradient(
+      to top,
+      rgba(71, 46, 104, 0.9),
+      rgba(71, 46, 104, 0.9)
+    ),
+    url(images/banner.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 70vh;
+  width: 100%;
+  text-align: center;
+}
+#banner > h1 {
+  font-size: 1.8em;
+  font-weight: 400;
+  margin: 0 0 0.65em;
+  text-transform: uppercase;
+}
+#banner > p {
+  font-size: 1em;
+  margin: 0 0 0.65em;
+}
+#banner > a {
+  color: #fff;
+  background-color: #00a6d9;
+  border-radius: 3px;
+  font-size: 0.95em;
+  text-align: center;
+  padding: 10px 0;
+  width: 85%;
+}
+
+#banner > a:focus,
+#banner > a:hover {
+  background-color: #00baf3;
+}
+
+/*
+section One
+*/
+
+#one {
+  align-items: center;
+  background-color: #f5f8fa;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 3em 0 1em 0;
+}
+
+.card {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 44px;
+  padding: 22px 22px 0;
+  width: 70vw;
+}
+
+.card-header {
+  align-self: flex-start;
+}
+
+.card-header > p {
+  color: #00a6d9;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+
+.card-header > h3 {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 1.4em;
+}
+
+.card-header > hr {
+  width: 20vw;
+  margin-bottom: 26px;
+}
+
+.button-more {
+  border: 1px solid #c1d0df;
+  color: #637485;
+  margin: 25px 0;
+  padding: 5px;
+  text-align: center;
+  width: 90%;
+  vertical-align: middle;
+}
+
+.button-more:focus,
+.button-more:hover {
+  background-color: #f5f8fa;
+}
+
+/*
+Section two
+*/
+
+#two {
+  background-color: #00a6d9;
+  color: #ffffff;
+  padding: 2em 0 2em;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 75%;
+  text-align: center;
+  list-style-type: none;
+}
+
+.features .icon {
+  border-radius: 100%;
+  box-shadow: -0.5em 0.5em 1em rgb(0 0 0 / 5%);
+  display: block;
+  font-size: 1.75em;
+  height: 2.75em;
+  line-height: 2.75em;
+  margin: 0 auto 0.7em;
+  text-align: center;
+  width: 2.75em;
+}
+
+.features li {
+  margin: 0 0.5em 1em;
+}
+
+/*
+Section three
+*/
+
+#three {
+  padding: 2em 0 2em;
+}
+
+#three > .container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+#three header {
+  text-align: start;
+  margin-bottom: 16px;
+}
+
+#three header  > p {
+  color: #00a6d9;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+
+#three header > h2 {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 1.4em;
+}
+
+#three header > hr {
+  width: 20vw;
+  margin-bottom: 26px;
+}
+#three .posts {
+  width: 100%;
+}
+#three .posts article{
+  display: flex;
+  flex-direction: column;
+}
+
+#three .posts article img {
+  width: 100%;
+  margin-bottom: 10px;
+}

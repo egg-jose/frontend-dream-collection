@@ -1,0 +1,156 @@
+[
+	{
+		"id": "SEN-1214",
+		"username": "alorenzo",
+		"fullname": "Aris Yván Lorenzo Suero",
+		"president": false,
+		"politicParty": "PLD"
+	},
+	{
+		"id": "SEN-1234",
+		"username": "amarte",
+		"fullname": "Casimiro Antonio Marte Familia",
+		"president": false,
+		"politicParty": "FP"
+	},
+	{
+		"id": "SEN-1247",
+		"username": "ataveras",
+		"fullname": "Antonio Taveras Guzmán",
+		"president": false,
+		"politicParty": "PRM"
+	},
+	{
+		"id": "SEN-1220",
+		"username": "avictoria",
+		"fullname": "Alexis Victoria Yeb",
+		"president": false,
+		"politicParty": "PRM"
+	},
+	{
+		"id": "SEN-1216",
+		"username": "brojas",
+		"fullname": "Bautista Antonio Rojas Gómez",
+		"president": false,
+		"politicParty": "FP"
+	},
+	{
+		"id": "SEN-1240",
+		"username": "ccastillo",
+		"fullname": "Cristóbal Venerado Castillo",
+		"president": false,
+		"politicParty": "PRM"
+	},
+	{
+		"id": "SEN-1227",
+		"username": "cgomez",
+		"fullname": "Carlos Manuel Gómez Ureña",
+		"president": false,
+		"politicParty": "PRM"
+	},
+	{
+		"id": "SEN-1250",
+		"username": "dsanchez",
+		"fullname": "Dionis Alfonso Sánchez Carrasco",
+		"president": false,
+		"politicParty": "FP"
+	},
+	{
+		"id": "SEN-1200",
+		"username": "dsosa",
+		"fullname": "David Rafael Sosa Cerda",
+		"president": false,
+		"politicParty": "FP"
+	},
+	{
+		"id": "SEN-1366",
+		"username": "eestrella",
+		"fullname": "Eduardo Estrella Virella",
+		"president": true,
+		"politicParty": "DxC"
+	},
+	{
+		"id": "SEN-1245",
+		"username": "fbautista",
+		"fullname": "Félix Rámon Bautista Rosario",
+		"president": false,
+		"politicParty": "FP"
+	},
+	{
+		"id": "SEN-1198",
+		"username": "fpena",
+		"fullname": "Franklin Ysaías Peña Villalona",
+		"president": false,
+		"politicParty": "FP"
+	},
+	{
+		"id": "SEN-1204",
+		"username": "fraful",
+		"fullname": "Faride Virginia Raful Soriano",
+		"president": false,
+		"politicParty": "PRM"
+	},
+	{
+		"id": "SEN-1228",
+		"username": "frodriguez",
+		"fullname": "Franklin Alberto Rodríguez",
+		"president": false,
+		"politicParty": "FP"
+	},
+	{
+		"id": "SEN-1208",
+		"username": "fromero",
+		"fullname": "Franklin Martín Romero Morillo",
+		"president": false,
+		"politicParty": "PRM"
+	},
+	{
+		"id": "SEN-1202",
+		"username": "gbournigal",
+		"fullname": "Ginnette Altagracia Bournigal",
+		"president": false,
+		"politicParty": "PRM"
+	},
+	{
+		"id": "SEN-1223",
+		"username": "hacosta",
+		"fullname": "Hector E. Acosta",
+		"president": false,
+		"politicParty": "PRM"
+	},
+	{
+		"id": "SEN-1207",
+		"username": "isilva",
+		"fullname": "Iván José Silva Fernández",
+		"president": false,
+		"politicParty": "PRM"
+	},
+	{
+		"id": "SEN-1239",
+		"username": "jcastillo",
+		"fullname": "José Antonio Castillo Casado",
+		"president": false,
+		"politicParty": "FP"
+	},
+	{
+		"id": "SEN-1233",
+		"username": "jmcastillo",
+		"fullname": "José Manuel Del Castillo Savinón",
+		"president": false,
+		"politicParty": "PLD"
+	},
+	{
+		"id": "SEN-1317",
+		"username": "ldiaz",
+		"fullname": "Lía Ynocencia Díaz Santana",
+		"president": false,
+		"politicParty": "PRM"
+	},
+	{
+		"id": "SEN-1232",
+		"username": "lvaldez",
+		"fullname": "Lenin Valdez López",
+		"president": false,
+		"politicParty": "PRM"
+	}
+]
