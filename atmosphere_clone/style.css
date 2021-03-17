@@ -114,7 +114,9 @@ section One
   align-items: center;
   background-color: #f5f8fa;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
   padding: 3em 0 1em 0;
 }
@@ -124,9 +126,10 @@ section One
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  margin-bottom: 44px;
+  margin: 0 auto 44px;
   padding: 22px 22px 0;
   width: 70vw;
+  max-width: 600px;
 }
 
 .card-header {
@@ -174,6 +177,7 @@ Section two
   background-color: #00a6d9;
   color: #ffffff;
   padding: 2em 0 2em;
+  width: 100%;
 }
 
 .features {
@@ -247,4 +251,8 @@ Section three
 #three .posts article img {
   width: 100%;
   margin-bottom: 10px;
+}
+
+@media(max-width: 1279px) {
+  
 }
